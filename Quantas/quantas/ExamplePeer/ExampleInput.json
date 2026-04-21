@@ -1,0 +1,68 @@
+{
+  "algorithms": [
+    "ExamplePeer/ExamplePeer.cpp",
+    "ExamplePeer/ExamplePeer2.cpp"
+  ],
+  "experiments": [
+    {
+      "logFile": "example1.txt",
+      "threadCount": 1,
+      "parameters": {
+        "parameter1": 100,
+        "parameter2": "world",
+        "changePeerType": true
+      },
+      "distribution": {
+        "type": "uniform",
+        "maxDelay": 3,
+        "maxMsgsRec": 10
+      },
+      "topology": {
+        "type": "complete",
+        "initialPeers": 5,
+        "initialPeerType": "ExamplePeer"
+      },
+      "tests": 1,
+      "rounds": 5
+    },
+    {
+      "logFile": "example2.txt",
+      "threadCount": 1,
+      "parameters": {
+        "parameter1": 3.14159,
+        "parameter2": "hello",
+        "changePeerType": false
+      },
+      "distribution": {
+        "type": "uniform",
+        "maxDelay": 1
+      },
+      "topology": {
+        "type": "userList",
+        "initialPeers": 3,
+        "list": {
+          "0": [ 1, 2 ],
+          "1": [ 2 ]
+        },
+        "initialPeerType": "ExamplePeer"
+      },
+      "tests": 1,
+      "rounds": 3
+    },
+    {
+      "logFile": "example3.txt",
+      "threadCount": 1,
+      "distribution": {
+        "type": "uniform",
+        "maxDelay": 3
+      },
+      "topology": {
+        "type": "complete",
+        "initialPeers": 3,
+        "initialPeerType": "ExamplePeer"
+      },
+      "tests": 1,
+      "rounds": 3
+    }
+  ]
+}

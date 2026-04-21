@@ -1,0 +1,9 @@
+{
+    "n": 100,
+    "min_k": 3,
+    "max_k": 15,
+    "min_edge_prob": 0.01,  
+    "max_edge_prob": 1.0,
+    "attempts": 1000,
+    "max_workers": 5
+}

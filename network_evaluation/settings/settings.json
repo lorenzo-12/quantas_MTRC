@@ -1,0 +1,10 @@
+{
+    "n": 100,
+    "min_k": 4,
+    "max_k": 10,
+    "min_edge_prob": 0.0,  
+    "max_edge_prob": 1.0,
+    "attempts_per_edge_prob": 1000,
+    "thread_pool_size": 10,
+    "network": "erdos_renyi"
+}

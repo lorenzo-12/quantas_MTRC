@@ -1,0 +1,7 @@
+{
+    "n": 100,
+    "min_k": 3,
+    "max_k": 15,
+    "attempts": 1000,
+    "max_workers": 5
+}
