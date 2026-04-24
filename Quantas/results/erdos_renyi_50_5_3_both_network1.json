@@ -1,0 +1,106 @@
+{
+    "Peak Memory KB": 474560,
+    "RunTime": 2199.211995939,
+    "tests": [
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 6.166666666666667,
+                    "avgMessagesSent": 71920.18,
+                    "totalMessagesSent": 6976257
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 5.1875,
+                    "avgMessagesSent": 71677.27,
+                    "totalMessagesSent": 6952695
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 5.229166666666667,
+                    "avgMessagesSent": 71014.05,
+                    "totalMessagesSent": 6888363
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 6.229166666666667,
+                    "avgMessagesSent": 71870.3,
+                    "totalMessagesSent": 6971419
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 5.541666666666667,
+                    "avgMessagesSent": 71377.63,
+                    "totalMessagesSent": 6923630
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 6.8125,
+                    "avgMessagesSent": 71257.22,
+                    "totalMessagesSent": 6911950
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 5.354166666666667,
+                    "avgMessagesSent": 70816.2,
+                    "totalMessagesSent": 6869171
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 7.041666666666667,
+                    "avgMessagesSent": 71169.98,
+                    "totalMessagesSent": 6903488
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 5.375,
+                    "avgMessagesSent": 71096.56,
+                    "totalMessagesSent": 6896366
+                }
+            ]
+        },
+        {
+            "results": [
+                {
+                    "avgCorrectNodeDelivered": 49.48,
+                    "avgDeliveryRound": 8.729166666666666,
+                    "avgMessagesSent": 71473.23,
+                    "totalMessagesSent": 6932903
+                }
+            ]
+        }
+    ]
+}

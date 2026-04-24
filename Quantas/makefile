@@ -61,7 +61,8 @@ ALG_OBJS += $(ALGS:.cpp=.o)
 # necessary flags
 CXX := g++
 CXXFLAGS := -pthread -std=c++17
-GCC_VERSION := $(shell $(CXX) $(CXXFLAGS) -dumpversion)
+#GCC_VERSION := $(shell $(CXX) $(CXXFLAGS) -dumpversion)
+GCC_VERSION := $(shell $(CXX) -dumpfullversion 2>/dev/null | cut -d. -f1)
 GCC_MIN_VERSION := 8
 
 ############################### Build Types ###############################

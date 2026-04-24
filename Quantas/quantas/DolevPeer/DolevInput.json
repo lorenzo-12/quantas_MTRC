@@ -4,7 +4,7 @@
 	],
 	"experiments": [
 		{
-			"logFile": "cout",
+			"logFile": "results/test.json",
 			"threadCount": 1,
 			"parameters": {
 				"ts": 5,
