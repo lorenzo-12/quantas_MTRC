@@ -27,7 +27,7 @@ def get_results_files():
     return [f for f in RESULTS_DIR.iterdir() if f.is_file() and f.suffix == ".json"]
 
 def get_script_files():
-    return [f for f in SCRIPTS_DIR.iterdir() if f.is_file() and f.suffix == ".sh"]
+    return [f for f in SCRIPTS_DIR.iterdir() if f.is_file() and f.suffix == ".sh" and f.stem != "script"]
 
 def generate_scripts_files():
     
@@ -61,6 +61,7 @@ def get_corresponding_script_file(result_file):
 threshold = 10
 def run_scripts():
     scripts_files = get_script_files()
+    scripts_files = [f for f in scripts_files if "100" not in f.stem]
     results_files = set()
     
     for f in get_results_files():
