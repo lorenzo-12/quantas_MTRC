@@ -83,7 +83,7 @@ void DolevPeer::endOfRound(std::vector<Peer *> &peers) {
     if (RoundManager::currentRound() == RoundManager::lastRound() && publicId() == 0) {
         json results = saveResults(peers);
         LogWriter::pushValue("results", results);
-        cout << "finished saving results for test" << endl;
+        cout << "[Dolev] finished saving results for test" << endl;
     }
 
 }

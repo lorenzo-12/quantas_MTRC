@@ -1,0 +1,604 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "neighbors": [
+                3,
+                5,
+                42,
+                44,
+                15,
+                21
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 1,
+            "neighbors": [
+                33,
+                3,
+                5,
+                38,
+                12,
+                45,
+                46
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 2,
+            "neighbors": [
+                37,
+                8,
+                9,
+                13,
+                47
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 3,
+            "neighbors": [
+                0,
+                1,
+                34,
+                41,
+                45,
+                49,
+                25
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 4,
+            "neighbors": [
+                16,
+                41,
+                27
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 5,
+            "neighbors": [
+                0,
+                1,
+                37,
+                11,
+                12,
+                44,
+                45,
+                15,
+                16,
+                17,
+                28
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 6,
+            "neighbors": [
+                34,
+                35,
+                36,
+                37,
+                49,
+                25
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 7,
+            "neighbors": [
+                41,
+                28,
+                46
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 8,
+            "neighbors": [
+                2,
+                43,
+                44,
+                17,
+                31
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 9,
+            "neighbors": [
+                33,
+                2,
+                40,
+                12,
+                13,
+                48,
+                19,
+                20
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 10,
+            "neighbors": [
+                32,
+                43,
+                47,
+                20,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 11,
+            "neighbors": [
+                5,
+                41,
+                12,
+                15,
+                29
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 12,
+            "neighbors": [
+                32,
+                1,
+                33,
+                35,
+                5,
+                9,
+                11,
+                20
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 13,
+            "neighbors": [
+                2,
+                36,
+                9,
+                44,
+                19
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 14,
+            "neighbors": [
+                32,
+                36,
+                39,
+                42,
+                22,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 15,
+            "neighbors": [
+                0,
+                5,
+                43,
+                11,
+                29
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 16,
+            "neighbors": [
+                4,
+                37,
+                5,
+                40,
+                47,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 17,
+            "neighbors": [
+                36,
+                5,
+                8,
+                44,
+                25,
+                29
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 18,
+            "neighbors": [
+                46,
+                25,
+                35,
+                22
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 19,
+            "neighbors": [
+                36,
+                9,
+                13,
+                46,
+                20,
+                22,
+                27,
+                31
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 20,
+            "neighbors": [
+                39,
+                9,
+                10,
+                43,
+                12,
+                19,
+                23,
+                25
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 21,
+            "neighbors": [
+                0,
+                33,
+                35,
+                39,
+                46,
+                49,
+                27
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 22,
+            "neighbors": [
+                18,
+                19,
+                14
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 23,
+            "neighbors": [
+                43,
+                44,
+                20,
+                24,
+                27
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 24,
+            "neighbors": [
+                32,
+                35,
+                39,
+                10,
+                43,
+                45,
+                14,
+                47,
+                16,
+                23
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 25,
+            "neighbors": [
+                3,
+                6,
+                48,
+                17,
+                18,
+                20
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 26,
+            "neighbors": [
+                27,
+                28,
+                39
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 27,
+            "neighbors": [
+                4,
+                40,
+                43,
+                19,
+                21,
+                23,
+                26,
+                31
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 28,
+            "neighbors": [
+                26,
+                37,
+                5,
+                7
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 29,
+            "neighbors": [
+                41,
+                11,
+                45,
+                15,
+                17,
+                31
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 30,
+            "neighbors": [
+                48,
+                49,
+                45,
+                46
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 31,
+            "neighbors": [
+                8,
+                43,
+                19,
+                27,
+                29
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 32,
+            "neighbors": [
+                35,
+                38,
+                10,
+                12,
+                14,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 33,
+            "neighbors": [
+                1,
+                34,
+                9,
+                12,
+                44,
+                46,
+                21
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 34,
+            "neighbors": [
+                33,
+                3,
+                6,
+                39,
+                41,
+                45
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 35,
+            "neighbors": [
+                32,
+                6,
+                12,
+                49,
+                18,
+                21,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 36,
+            "neighbors": [
+                6,
+                13,
+                14,
+                17,
+                19
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 37,
+            "neighbors": [
+                2,
+                5,
+                6,
+                16,
+                28
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 38,
+            "neighbors": [
+                32,
+                1,
+                39,
+                46,
+                48
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 39,
+            "neighbors": [
+                34,
+                38,
+                14,
+                48,
+                20,
+                21,
+                24,
+                26
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 40,
+            "neighbors": [
+                16,
+                9,
+                27
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 41,
+            "neighbors": [
+                34,
+                3,
+                4,
+                7,
+                42,
+                11,
+                29
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 42,
+            "neighbors": [
+                0,
+                41,
+                14
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 43,
+            "neighbors": [
+                8,
+                10,
+                44,
+                15,
+                47,
+                20,
+                23,
+                24,
+                27,
+                31
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 44,
+            "neighbors": [
+                0,
+                33,
+                5,
+                8,
+                43,
+                13,
+                47,
+                17,
+                23
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 45,
+            "neighbors": [
+                1,
+                34,
+                3,
+                5,
+                24,
+                29,
+                30
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 46,
+            "neighbors": [
+                1,
+                33,
+                38,
+                7,
+                18,
+                19,
+                21,
+                30
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 47,
+            "neighbors": [
+                2,
+                10,
+                43,
+                44,
+                16,
+                24
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 48,
+            "neighbors": [
+                38,
+                39,
+                9,
+                25,
+                30
+            ],
+            "is_byzantine": false
+        },
+        {
+            "id": 49,
+            "neighbors": [
+                35,
+                3,
+                6,
+                21,
+                30
+            ],
+            "is_byzantine": false
+        }
+    ]
+}

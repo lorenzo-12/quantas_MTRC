@@ -28,15 +28,14 @@ def extract_info(file_path):
     topology_name = tmp[2]
     return topology_type, topology_info, topology_name
 
-def extract_connectivity_info(file_path):
-    t_type, t_info, t_name = extract_info(file_path)
-    connectivity = t_info.split("_")[2]
-    return int(connectivity)
 
-def extract_n_info(file_path):
-    t_type, t_info, t_name = extract_info(file_path)
-    n = t_info.split("_")[1]
-    return int(n)
+def extract_n_k_info(file_path):
+    topology_type, topology_info, topology_name = extract_info(file_path)
+    tmp = topology_info.replace("dolev_", "").replace("both_", "")
+    x = tmp.split("_")
+    n = int(x[0])
+    k = int(x[1])
+    return n, k
     
 def select_random_byzantines(n, t):
     all_nodes = [i for i in range(1, n)]

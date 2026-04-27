@@ -26,3 +26,5 @@ quantas/TrailPeer/*.png
 quantas/TrailPeer/*Log.json
 quantas/TrailPeer/*logs*/**/*
 quantas/TrailPeer/*Logs*/**/*
+
+server_output/*

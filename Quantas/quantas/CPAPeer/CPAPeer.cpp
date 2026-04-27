@@ -87,7 +87,7 @@ void CPAPeer::endOfRound(std::vector<Peer *> &peers) {
     if (RoundManager::currentRound() == RoundManager::lastRound() && publicId() == 0) {
         json results = saveResults(peers);
         LogWriter::pushValue("results", results);
-        cout << "finished saving results for test" << endl;
+        cout << "[CPA] finished saving results for test" << endl;
     }
 
 }
@@ -122,7 +122,7 @@ void CPAPeer::checkInStrm() {
         }
 
         // check if we can deliver the message
-        if (count(receivedMessages, m) >= ts) {
+        if (count(receivedMessages, m) >= ts+1) {
             delivered = true;
             deliveryRound = RoundManager::currentRound();
             mDelivered = m;
