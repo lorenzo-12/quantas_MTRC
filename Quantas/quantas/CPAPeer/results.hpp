@@ -4,7 +4,7 @@
 #include <algorithm>
 
 #include "../Common/Peer.hpp"
-#include "DolevPeer.hpp"
+#include "CPAPeer.hpp"
 
 using namespace std;
 
@@ -14,9 +14,9 @@ namespace quantas {
         map<int, int> deliveryCount;
         int totalDelivered = 0;
         for (Peer *peerPtr : peers) {
-            if (auto *dolevpeer = dynamic_cast<DolevPeer *>(peerPtr)) {
-                if (dolevpeer->delivered && !dolevpeer->isByzantine) {
-                    deliveryCount[dolevpeer->mDelivered]++;
+            if (auto *cpapeer = dynamic_cast<CPAPeer *>(peerPtr)) {
+                if (cpapeer->delivered && !cpapeer->isByzantine) {
+                    deliveryCount[cpapeer->mDelivered]++;
                     totalDelivered++;
                 }
             }
@@ -37,10 +37,10 @@ namespace quantas {
         int cntCorrectDelivered = 0;
         int cntCorrect = 0;
         for (Peer *peerPtr : peers) {
-            if (auto *dolevpeer = dynamic_cast<DolevPeer *>(peerPtr)) {
-                if (!dolevpeer->isByzantine) {
+            if (auto *cpapeer = dynamic_cast<CPAPeer *>(peerPtr)) {
+                if (!cpapeer->isByzantine) {
                     cntCorrect++;
-                    if (dolevpeer->delivered) {
+                    if (cpapeer->delivered) {
                         cntCorrectDelivered++;
                     }
                 }
@@ -59,10 +59,10 @@ namespace quantas {
         int cntDelivered = 0;
         int cntDeliveredRound = 0;
         for (Peer *peerPtr : peers) {
-            if (auto *dolevpeer = dynamic_cast<DolevPeer *>(peerPtr)) {
-                if (dolevpeer->delivered) {
+            if (auto *cpapeer = dynamic_cast<CPAPeer *>(peerPtr)) {
+                if (cpapeer->delivered) {
                     cntDelivered++;
-                    cntDeliveredRound += dolevpeer->deliveryRound;
+                    cntDeliveredRound += cpapeer->deliveryRound;
                 }
             }
         }
@@ -76,8 +76,8 @@ namespace quantas {
     inline int getTotalMessagesSent(const vector<Peer *> &peers) {
         int total = 0;
         for (Peer *peerPtr : peers) {
-            if (auto *dolevpeer = dynamic_cast<DolevPeer *>(peerPtr)) {
-                total += dolevpeer->msgsSent;
+            if (auto *cpapeer = dynamic_cast<CPAPeer *>(peerPtr)) {
+                total += cpapeer->msgsSent;
             }
         }
         return total;
@@ -87,8 +87,8 @@ namespace quantas {
         int total = getTotalMessagesSent(peers);
         int correctNodes = 0;
         for (Peer *peerPtr : peers) {
-            if (auto *dolevpeer = dynamic_cast<DolevPeer *>(peerPtr)) {
-                if (!dolevpeer->isByzantine) {
+            if (auto *cpapeer = dynamic_cast<CPAPeer *>(peerPtr)) {
+                if (!cpapeer->isByzantine) {
                     correctNodes++;
                 }
             }

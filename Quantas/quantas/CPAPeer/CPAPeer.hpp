@@ -12,16 +12,15 @@ You should have received a copy of the GNU General Public License along with
 QUANTAS. If not, see <https://www.gnu.org/licenses/>.
 */
 
-#ifndef DolevPeer_hpp
-#define DolevPeer_hpp
+#ifndef CPAPeer_hpp
+#define CPAPeer_hpp
 
 #include "../Common/Peer.hpp"
-#include "disjoint_paths.hpp"
+#include <iostream>
+#include <map>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
-#include <map>
-#include <iostream>
 
 using namespace std;
 
@@ -29,13 +28,14 @@ namespace quantas {
 
 class Packet;
 
-class DolevPeer : public Peer {
+class CPAPeer : public Peer {
   public:
-    DolevPeer(NetworkInterface *networkInterface);
-    DolevPeer(const DolevPeer &rhs);
-    ~DolevPeer() override;
+    CPAPeer(NetworkInterface *networkInterface);
+    CPAPeer(const CPAPeer &rhs);
+    ~CPAPeer() override;
 
-    void initParameters(const std::vector<Peer *> &peers, json parameters) override;
+    void
+    initParameters(const std::vector<Peer *> &peers, json parameters) override;
     void performComputation() override;
     void endOfRound(std::vector<Peer *> &peers) override;
 
@@ -43,23 +43,22 @@ class DolevPeer : public Peer {
 
     int msgsSent = 0;
     bool changePeerType = false;
-    int ts = 0; // threshold safty
-    int tl = 0; // threshold liveness
-    int sender = 0; // id of sender in initial round
+    int ts = 0;               // threshold safty
+    int tl = 0;               // threshold liveness
+    int sender = 0;           // id of sender in initial round
     bool isByzantine = false; // whether this peer is byzantine or not
 
     bool delivered = false; // whether this peer has delivered the message or not
     int deliveryRound = -1; // round in which this peer delivered the message
-    int mDelivered = -1; // message that this peer delivered
+	int mDelivered = -1; // the message that this peer delivered
 
-    unordered_map<int, vector<unordered_set<interfaceId>>> receivedMessages = {}; // m -> list of path vectors from which this peer has received m
-
+    unordered_map<interfaceId, int> receivedMessages;
 
   private:
     void checkInStrm();
 
-    json buildMsg(int m, const unordered_set<interfaceId> &path) const;
-    void propagateMsg(int m, const unordered_set<interfaceId> &path, interfaceId srcId = -1);
+    json buildMsg(int m) const;
+    void propagateMsg(int m, vector<interfaceId> excludePeers);
 
     void correctBehavior();
     void byzantineBehavior();
@@ -67,4 +66,4 @@ class DolevPeer : public Peer {
 
 } // namespace quantas
 
-#endif /* DolevPeer_hpp */
+#endif /* CPAPeer_hpp */

@@ -20,9 +20,10 @@
 # Configure this for the specific input file.
 # Make sure to include the path to the input file 
 
+#INPUTFILE := quantas/CPAPeer/CPAInput.json
 #INPUTFILE := quantas/DolevPeer/DolevInput.json
 #INPUTFILE := quantas/DolevPeer/DolevInput_0.json
-INPUTFILE := quantas/topologies/erdos_renyi_n100_k3_t1.json
+#INPUTFILE := quantas/topologies/erdos_renyi_n100_k3_t1.json
 
 #INPUTFILE := quantas/ExamplePeer/ExampleInput.json
 

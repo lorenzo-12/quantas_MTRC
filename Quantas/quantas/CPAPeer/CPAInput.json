@@ -1,6 +1,6 @@
 {
 	"algorithms": [
-		"DolevPeer/DolevPeer.cpp"
+		"CPAPeer/CPAPeer.cpp"
 	],
 	"experiments": [
 		{
@@ -18,15 +18,16 @@
 			},
 			"topology": {
 				"type": "userList",
-				"initialPeers": 6,
-				"initialPeerType": "DolevPeer",
+				"initialPeers": 7,
+				"initialPeerType": "CPAPeer",
 				"list": {
 					"0": [1,2,3],
 					"1": [0,4],
-					"2": [0,4,5],
-					"3": [0,4,5],
-					"4": [1,2,5],
-					"5": [2,3,4]
+					"2": [0,4,5,6],
+					"3": [0,5],
+					"4": [1,2],
+					"5": [2,3],
+					"6": [2,5]
 				}
 			},
 			"tests": 1,

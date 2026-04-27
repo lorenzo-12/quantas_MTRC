@@ -51,6 +51,9 @@ DolevPeer::DolevPeer(const DolevPeer &rhs) : Peer(rhs) {
     sender = rhs.sender;
     receivedMessages = rhs.receivedMessages;
     isByzantine = rhs.isByzantine;
+    delivered = rhs.delivered;
+    deliveryRound = rhs.deliveryRound;
+    mDelivered = rhs.mDelivered;
 }
 
 DolevPeer::~DolevPeer() = default;
@@ -107,6 +110,7 @@ void DolevPeer::checkInStrm() {
         if (packet.sourceId() == sender && path.size() == 0) {
             delivered = true;
             deliveryRound = RoundManager::currentRound();
+            mDelivered = m;
             //cout << "[DIRECT] Peer " << publicId() << " delivered message " << m << " in round " << deliveryRound << endl;
         }
 
@@ -121,6 +125,7 @@ void DolevPeer::checkInStrm() {
         if (!delivered && k_disjoint(modified_sets, ts+1)) {
             delivered = true;
             deliveryRound = RoundManager::currentRound();
+            mDelivered = m;
             //cout << "Peer " << publicId() << " original sets" << endl;
             //print_list_sets(modified_sets);
             //cout << "[DISJOINT] Peer " << publicId() << " delivered message " << m << " in round " << deliveryRound << endl;
@@ -162,6 +167,7 @@ void DolevPeer::correctBehavior() {
 
         delivered = true;
         deliveryRound = RoundManager::currentRound();
+        mDelivered = 0;
         //cout << "Sender " << publicId() << " delivered message 0 in round " << deliveryRound << endl;
     }
 
