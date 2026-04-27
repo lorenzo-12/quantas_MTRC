@@ -4,18 +4,18 @@
     ],
     "experiments": [
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network6.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    69,
+                    4,
                     85,
-                    88,
-                    63,
-                    4
+                    37,
+                    49,
+                    93
                 ],
                 "t": 5
             },
@@ -1234,18 +1234,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network7.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
+                    88,
+                    45,
+                    41,
                     55,
-                    83,
-                    78,
-                    4,
-                    73
+                    58
                 ],
                 "t": 5
             },
@@ -2464,18 +2464,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network0.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    71,
-                    84,
-                    50,
-                    28,
-                    45
+                    30,
+                    16,
+                    75,
+                    11,
+                    21
                 ],
                 "t": 5
             },
@@ -3694,18 +3694,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network1.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    3,
-                    48,
-                    27,
-                    37,
-                    36
+                    28,
+                    76,
+                    32,
+                    97,
+                    80
                 ],
                 "t": 5
             },
@@ -4924,18 +4924,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network2.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    29,
-                    81,
-                    87,
-                    32,
-                    59
+                    26,
+                    91,
+                    89,
+                    57,
+                    7
                 ],
                 "t": 5
             },
@@ -6154,18 +6154,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network3.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    44,
-                    84,
-                    92,
+                    69,
+                    13,
                     67,
-                    17
+                    58,
+                    85
                 ],
                 "t": 5
             },
@@ -7384,18 +7384,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network4.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    56,
-                    33,
-                    44,
-                    75,
-                    97
+                    90,
+                    85,
+                    1,
+                    6,
+                    15
                 ],
                 "t": 5
             },
@@ -8614,18 +8614,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network8.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    22,
-                    80,
-                    17,
-                    94,
-                    54
+                    1,
+                    8,
+                    73,
+                    76,
+                    28
                 ],
                 "t": 5
             },
@@ -9844,18 +9844,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network9.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
                     64,
+                    97,
                     25,
-                    57,
-                    27
+                    40,
+                    23
                 ],
                 "t": 5
             },
@@ -11074,18 +11074,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_dolev_network5.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    72,
-                    98,
-                    3,
-                    90,
-                    10
+                    54,
+                    76,
+                    62,
+                    93,
+                    23
                 ],
                 "t": 5
             },
@@ -12304,18 +12304,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network5.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    74,
-                    46,
-                    69,
-                    83,
-                    42
+                    27,
+                    73,
+                    64,
+                    33,
+                    96
                 ],
                 "t": 5
             },
@@ -13534,18 +13534,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network9.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
+                    89,
                     52,
-                    20,
-                    94,
-                    29,
-                    91
+                    19,
+                    31,
+                    28
                 ],
                 "t": 5
             },
@@ -14764,18 +14764,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network8.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    24,
-                    77,
-                    31,
-                    27,
-                    97
+                    49,
+                    15,
+                    8,
+                    96,
+                    83
                 ],
                 "t": 5
             },
@@ -15994,18 +15994,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network4.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    88,
-                    63,
-                    54,
-                    26,
-                    15
+                    31,
+                    35,
+                    92,
+                    94,
+                    46
                 ],
                 "t": 5
             },
@@ -17224,18 +17224,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network3.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    46,
-                    4,
-                    19,
-                    66,
-                    83
+                    77,
+                    88,
+                    99,
+                    68,
+                    3
                 ],
                 "t": 5
             },
@@ -18454,18 +18454,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network2.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    93,
-                    56,
-                    82,
-                    95,
-                    78
+                    69,
+                    64,
+                    47,
+                    38,
+                    9
                 ],
                 "t": 5
             },
@@ -19684,18 +19684,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network1.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    15,
-                    38,
-                    9,
-                    3,
-                    4
+                    30,
+                    40,
+                    56,
+                    92,
+                    57
                 ],
                 "t": 5
             },
@@ -20914,18 +20914,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network0.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    63,
-                    92,
-                    77,
-                    95,
-                    3
+                    91,
+                    97,
+                    34,
+                    60,
+                    15
                 ],
                 "t": 5
             },
@@ -22144,18 +22144,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network7.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    59,
-                    62,
-                    19,
-                    31,
-                    90
+                    10,
+                    4,
+                    42,
+                    27,
+                    38
                 ],
                 "t": 5
             },
@@ -23374,18 +23374,18 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_5_both_network6.json",
+            "logFile": "results/cpa_random_regular_100_3_5_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    23,
-                    1,
-                    70,
-                    7,
-                    8
+                    36,
+                    2,
+                    28,
+                    18,
+                    59
                 ],
                 "t": 5
             },

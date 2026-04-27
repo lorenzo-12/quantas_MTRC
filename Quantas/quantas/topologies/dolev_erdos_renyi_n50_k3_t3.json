@@ -4,16 +4,16 @@
     ],
     "experiments": [
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network6.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    36,
-                    38,
-                    31
+                    48,
+                    45,
+                    8
                 ],
                 "t": 3
             },
@@ -432,7 +432,7 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network7.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
@@ -440,8 +440,8 @@
                 "sender": 0,
                 "byzantines": [
                     3,
-                    34,
-                    14
+                    27,
+                    35
                 ],
                 "t": 3
             },
@@ -900,16 +900,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network0.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    42,
-                    47,
-                    19
+                    9,
+                    21,
+                    44
                 ],
                 "t": 3
             },
@@ -1316,16 +1316,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network1.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    33,
-                    34,
-                    43
+                    22,
+                    25,
+                    37
                 ],
                 "t": 3
             },
@@ -1748,16 +1748,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network2.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    6,
-                    13,
-                    39
+                    23,
+                    41,
+                    17
                 ],
                 "t": 3
             },
@@ -2172,16 +2172,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network3.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    17,
-                    2,
-                    42
+                    34,
+                    3,
+                    35
                 ],
                 "t": 3
             },
@@ -2582,16 +2582,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network4.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    24,
-                    16,
-                    41
+                    39,
+                    31,
+                    8
                 ],
                 "t": 3
             },
@@ -3012,16 +3012,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network8.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    19,
                     24,
-                    23
+                    41,
+                    35
                 ],
                 "t": 3
             },
@@ -3430,16 +3430,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network9.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    26,
-                    35,
-                    9
+                    8,
+                    45,
+                    6
                 ],
                 "t": 3
             },
@@ -3850,16 +3850,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_dolev_network5.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    26,
-                    32,
-                    30
+                    29,
+                    9,
+                    12
                 ],
                 "t": 3
             },
@@ -4272,16 +4272,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network5.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    14,
-                    39,
-                    13
+                    8,
+                    24,
+                    30
                 ],
                 "t": 3
             },
@@ -4838,16 +4838,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network9.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    1,
-                    36,
-                    8
+                    6,
+                    23,
+                    16
                 ],
                 "t": 3
             },
@@ -5436,16 +5436,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network8.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    25,
-                    39,
-                    5
+                    11,
+                    41,
+                    46
                 ],
                 "t": 3
             },
@@ -6004,16 +6004,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network4.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    33,
-                    24,
-                    43
+                    40,
+                    38,
+                    7
                 ],
                 "t": 3
             },
@@ -6574,16 +6574,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network3.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    17,
-                    7,
-                    30
+                    21,
+                    10,
+                    38
                 ],
                 "t": 3
             },
@@ -7162,16 +7162,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network2.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    44,
-                    45,
-                    46
+                    32,
+                    29,
+                    27
                 ],
                 "t": 3
             },
@@ -7750,7 +7750,7 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network1.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
@@ -7758,8 +7758,8 @@
                 "sender": 0,
                 "byzantines": [
                     21,
-                    2,
-                    9
+                    49,
+                    5
                 ],
                 "t": 3
             },
@@ -8354,16 +8354,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network0.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    16,
-                    40,
-                    26
+                    26,
+                    5,
+                    28
                 ],
                 "t": 3
             },
@@ -8920,16 +8920,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network7.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    42,
-                    34,
-                    9
+                    3,
+                    20,
+                    4
                 ],
                 "t": 3
             },
@@ -9490,16 +9490,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_50_3_3_both_network6.json",
+            "logFile": "results/dolev_erdos_renyi_50_3_3_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    25,
-                    18,
-                    2
+                    24,
+                    29,
+                    40
                 ],
                 "t": 3
             },

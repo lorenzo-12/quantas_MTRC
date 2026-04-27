@@ -4,16 +4,16 @@
     ],
     "experiments": [
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network5.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    37,
-                    11,
-                    8
+                    49,
+                    23,
+                    69
                 ],
                 "t": 3
             },
@@ -1318,16 +1318,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network9.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    50,
-                    44,
-                    74
+                    88,
+                    62,
+                    43
                 ],
                 "t": 3
             },
@@ -2262,16 +2262,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network8.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    48,
-                    78,
-                    72
+                    41,
+                    31,
+                    19
                 ],
                 "t": 3
             },
@@ -3262,16 +3262,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network4.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    59,
-                    49,
-                    36
+                    4,
+                    57,
+                    28
                 ],
                 "t": 3
             },
@@ -4296,16 +4296,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network3.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    78,
-                    89,
-                    86
+                    24,
+                    71,
+                    87
                 ],
                 "t": 3
             },
@@ -5356,16 +5356,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network2.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    4,
-                    36,
-                    60
+                    67,
+                    1,
+                    30
                 ],
                 "t": 3
             },
@@ -6388,16 +6388,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network1.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    1,
-                    2,
-                    75
+                    26,
+                    48,
+                    25
                 ],
                 "t": 3
             },
@@ -7712,16 +7712,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network0.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    21,
-                    44,
-                    73
+                    51,
+                    74,
+                    4
                 ],
                 "t": 3
             },
@@ -8770,16 +8770,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network7.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    86,
-                    67,
-                    30
+                    49,
+                    85,
+                    71
                 ],
                 "t": 3
             },
@@ -9844,16 +9844,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_both_network6.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    57,
-                    92,
-                    68
+                    8,
+                    72,
+                    80
                 ],
                 "t": 3
             },
@@ -10970,16 +10970,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network6.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    89,
-                    51,
-                    97
+                    37,
+                    49,
+                    22
                 ],
                 "t": 3
             },
@@ -12120,16 +12120,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network7.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    71,
-                    80,
-                    55
+                    79,
+                    18,
+                    88
                 ],
                 "t": 3
             },
@@ -13208,16 +13208,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network0.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    1,
-                    22,
-                    23
+                    57,
+                    65,
+                    37
                 ],
                 "t": 3
             },
@@ -14224,16 +14224,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network1.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    7,
-                    97,
-                    59
+                    43,
+                    80,
+                    69
                 ],
                 "t": 3
             },
@@ -15224,16 +15224,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network2.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    68,
-                    83,
-                    4
+                    63,
+                    8,
+                    89
                 ],
                 "t": 3
             },
@@ -16220,16 +16220,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network3.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    37,
-                    50,
-                    12
+                    28,
+                    72,
+                    90
                 ],
                 "t": 3
             },
@@ -17368,16 +17368,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network4.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    2,
-                    35,
-                    34
+                    54,
+                    53,
+                    20
                 ],
                 "t": 3
             },
@@ -18392,16 +18392,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network8.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    81,
-                    94,
-                    15
+                    46,
+                    6,
+                    20
                 ],
                 "t": 3
             },
@@ -19612,16 +19612,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network9.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    2,
-                    49,
-                    99
+                    56,
+                    27,
+                    97
                 ],
                 "t": 3
             },
@@ -20484,16 +20484,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_3_dolev_network5.json",
+            "logFile": "results/cpa_edge_remover_100_3_3_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    52,
-                    78,
-                    83
+                    23,
+                    8,
+                    25
                 ],
                 "t": 3
             },

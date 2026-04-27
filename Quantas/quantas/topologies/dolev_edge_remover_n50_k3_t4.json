@@ -4,17 +4,17 @@
     ],
     "experiments": [
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network6.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    16,
-                    45,
-                    20,
-                    3
+                    44,
+                    47,
+                    46,
+                    34
                 ],
                 "t": 4
             },
@@ -475,17 +475,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network7.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
-                    22,
-                    8,
-                    35
+                    11,
+                    3,
+                    7,
+                    20
                 ],
                 "t": 4
             },
@@ -898,17 +898,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network0.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
-                    49,
-                    44,
-                    41
+                    12,
+                    18,
+                    39,
+                    7
                 ],
                 "t": 4
             },
@@ -1527,17 +1527,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network1.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    17,
-                    11,
-                    5,
-                    9
+                    34,
+                    38,
+                    13,
+                    25
                 ],
                 "t": 4
             },
@@ -2004,17 +2004,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network2.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
-                    11,
-                    43,
-                    30
+                    2,
+                    26,
+                    32,
+                    41
                 ],
                 "t": 4
             },
@@ -2491,17 +2491,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network3.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    30,
-                    2,
-                    40,
-                    19
+                    5,
+                    41,
+                    9,
+                    32
                 ],
                 "t": 4
             },
@@ -2976,17 +2976,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network4.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    30,
-                    20,
-                    33,
-                    17
+                    15,
+                    29,
+                    5,
+                    41
                 ],
                 "t": 4
             },
@@ -3453,17 +3453,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network8.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    1,
-                    30,
-                    3,
-                    24
+                    20,
+                    13,
+                    34,
+                    15
                 ],
                 "t": 4
             },
@@ -3906,17 +3906,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network9.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    38,
-                    46,
-                    23,
-                    9
+                    2,
+                    43,
+                    27,
+                    10
                 ],
                 "t": 4
             },
@@ -4349,17 +4349,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_dolev_network5.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    39,
-                    42,
-                    31,
-                    26
+                    23,
+                    28,
+                    21,
+                    49
                 ],
                 "t": 4
             },
@@ -4962,17 +4962,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network5.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    28,
-                    3,
-                    45,
-                    30
+                    12,
+                    4,
+                    46,
+                    38
                 ],
                 "t": 4
             },
@@ -5449,17 +5449,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network9.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    8,
-                    38,
-                    49,
-                    23
+                    24,
+                    4,
+                    28,
+                    7
                 ],
                 "t": 4
             },
@@ -5970,17 +5970,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network8.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    46,
-                    12,
-                    18,
-                    47
+                    35,
+                    15,
+                    9,
+                    32
                 ],
                 "t": 4
             },
@@ -6457,17 +6457,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network4.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    13,
+                    1,
+                    24,
                     12,
-                    26,
-                    30
+                    47
                 ],
                 "t": 4
             },
@@ -6940,17 +6940,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network3.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    12,
                     14,
-                    37,
-                    2
+                    12,
+                    21,
+                    39
                 ],
                 "t": 4
             },
@@ -7409,17 +7409,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network2.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    7,
-                    8,
-                    48,
-                    14
+                    28,
+                    45,
+                    3,
+                    7
                 ],
                 "t": 4
             },
@@ -7892,17 +7892,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network1.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    15,
-                    7,
-                    2,
-                    18
+                    17,
+                    6,
+                    10,
+                    38
                 ],
                 "t": 4
             },
@@ -8473,17 +8473,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network0.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    34,
-                    11,
-                    19,
-                    42
+                    12,
+                    42,
+                    2,
+                    26
                 ],
                 "t": 4
             },
@@ -9008,17 +9008,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network7.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    34,
-                    25,
-                    21,
-                    22
+                    2,
+                    40,
+                    31,
+                    21
                 ],
                 "t": 4
             },
@@ -9639,17 +9639,17 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_edge_remover_50_3_4_both_network6.json",
+            "logFile": "results/dolev_edge_remover_50_3_4_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    38,
-                    41,
-                    24,
-                    15
+                    6,
+                    5,
+                    49,
+                    48
                 ],
                 "t": 4
             },

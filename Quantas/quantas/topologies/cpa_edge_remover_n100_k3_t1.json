@@ -4,14 +4,14 @@
     ],
     "experiments": [
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network5.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    48
+                    33
                 ],
                 "t": 1
             },
@@ -1316,14 +1316,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network9.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    40
+                    54
                 ],
                 "t": 1
             },
@@ -2258,14 +2258,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network8.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    1
+                    43
                 ],
                 "t": 1
             },
@@ -3256,14 +3256,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network4.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    50
+                    11
                 ],
                 "t": 1
             },
@@ -4288,14 +4288,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network3.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    26
+                    17
                 ],
                 "t": 1
             },
@@ -5346,14 +5346,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network2.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    23
+                    72
                 ],
                 "t": 1
             },
@@ -6376,14 +6376,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network1.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    60
+                    86
                 ],
                 "t": 1
             },
@@ -7698,14 +7698,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network0.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    65
+                    39
                 ],
                 "t": 1
             },
@@ -8754,14 +8754,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network7.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    17
+                    82
                 ],
                 "t": 1
             },
@@ -9826,14 +9826,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_both_network6.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    39
+                    84
                 ],
                 "t": 1
             },
@@ -10950,7 +10950,7 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network6.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
@@ -12098,14 +12098,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network7.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    94
+                    14
                 ],
                 "t": 1
             },
@@ -13184,14 +13184,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network0.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    88
+                    10
                 ],
                 "t": 1
             },
@@ -14198,14 +14198,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network1.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    21
+                    90
                 ],
                 "t": 1
             },
@@ -15196,14 +15196,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network2.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    78
+                    93
                 ],
                 "t": 1
             },
@@ -16190,14 +16190,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network3.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    26
+                    94
                 ],
                 "t": 1
             },
@@ -17336,14 +17336,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network4.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    28
+                    66
                 ],
                 "t": 1
             },
@@ -18358,14 +18358,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network8.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    67
+                    43
                 ],
                 "t": 1
             },
@@ -19576,14 +19576,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network9.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    4
+                    56
                 ],
                 "t": 1
             },
@@ -20446,14 +20446,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_edge_remover_100_3_1_dolev_network5.json",
+            "logFile": "results/cpa_edge_remover_100_3_1_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    21
+                    61
                 ],
                 "t": 1
             },

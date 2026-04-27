@@ -4,14 +4,14 @@
     ],
     "experiments": [
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network6.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    96
+                    65
                 ],
                 "t": 1
             },
@@ -1232,14 +1232,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network7.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    7
+                    75
                 ],
                 "t": 1
             },
@@ -2474,14 +2474,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network0.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    99
+                    41
                 ],
                 "t": 1
             },
@@ -3736,14 +3736,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network1.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    71
+                    12
                 ],
                 "t": 1
             },
@@ -4936,14 +4936,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network2.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    50
+                    44
                 ],
                 "t": 1
             },
@@ -6174,14 +6174,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network3.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    46
+                    54
                 ],
                 "t": 1
             },
@@ -7346,14 +7346,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network4.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    24
+                    29
                 ],
                 "t": 1
             },
@@ -8624,14 +8624,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network8.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    90
+                    42
                 ],
                 "t": 1
             },
@@ -9870,14 +9870,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network9.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    99
+                    84
                 ],
                 "t": 1
             },
@@ -11072,14 +11072,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_dolev_network5.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    91
+                    43
                 ],
                 "t": 1
             },
@@ -12258,14 +12258,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network5.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    33
+                    43
                 ],
                 "t": 1
             },
@@ -13560,14 +13560,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network9.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    2
+                    24
                 ],
                 "t": 1
             },
@@ -14940,14 +14940,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network8.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    65
+                    36
                 ],
                 "t": 1
             },
@@ -16306,14 +16306,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network4.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    74
+                    32
                 ],
                 "t": 1
             },
@@ -17730,14 +17730,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network3.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    9
+                    86
                 ],
                 "t": 1
             },
@@ -19124,14 +19124,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network2.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    58
+                    16
                 ],
                 "t": 1
             },
@@ -20504,14 +20504,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network1.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    80
+                    62
                 ],
                 "t": 1
             },
@@ -21812,14 +21812,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network0.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    49
+                    10
                 ],
                 "t": 1
             },
@@ -23238,14 +23238,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network7.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    63
+                    27
                 ],
                 "t": 1
             },
@@ -24608,14 +24608,14 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/dolev_erdos_renyi_100_3_1_both_network6.json",
+            "logFile": "results/dolev_erdos_renyi_100_3_1_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    53
+                    29
                 ],
                 "t": 1
             },

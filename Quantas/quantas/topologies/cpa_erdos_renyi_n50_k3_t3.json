@@ -1,19 +1,19 @@
 {
     "algorithms": [
-        "DolevPeer/DolevPeer.cpp"
+        "CPAPeer/CPAPeer.cpp"
     ],
     "experiments": [
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network6.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    19,
-                    4,
-                    42
+                    12,
+                    28,
+                    30
                 ],
                 "t": 3
             },
@@ -24,7 +24,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         3,
@@ -432,16 +432,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network7.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    23,
-                    7,
-                    9
+                    21,
+                    26,
+                    42
                 ],
                 "t": 3
             },
@@ -452,7 +452,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         34,
@@ -900,16 +900,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network0.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    2,
-                    46,
-                    33
+                    39,
+                    27,
+                    26
                 ],
                 "t": 3
             },
@@ -920,7 +920,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         2,
@@ -1316,16 +1316,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network1.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    20,
-                    38,
-                    21
+                    43,
+                    28,
+                    29
                 ],
                 "t": 3
             },
@@ -1336,7 +1336,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         34,
@@ -1748,16 +1748,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network2.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    32,
-                    28,
-                    29
+                    2,
+                    4,
+                    25
                 ],
                 "t": 3
             },
@@ -1768,7 +1768,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         24,
@@ -2172,16 +2172,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network3.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    5,
-                    37,
-                    48
+                    8,
+                    44,
+                    9
                 ],
                 "t": 3
             },
@@ -2192,7 +2192,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         40,
@@ -2582,16 +2582,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network4.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    30,
-                    33,
-                    47
+                    49,
+                    37,
+                    40
                 ],
                 "t": 3
             },
@@ -2602,7 +2602,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         2,
@@ -3012,16 +3012,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network8.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    43,
-                    28,
-                    48
+                    22,
+                    36,
+                    39
                 ],
                 "t": 3
             },
@@ -3032,7 +3032,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         32,
@@ -3430,16 +3430,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network9.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    6,
-                    4,
-                    37
+                    42,
+                    8,
+                    40
                 ],
                 "t": 3
             },
@@ -3450,7 +3450,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         32,
@@ -3850,16 +3850,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_dolev_network5.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    39,
-                    21,
-                    37
+                    31,
+                    4,
+                    1
                 ],
                 "t": 3
             },
@@ -3870,7 +3870,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         34,
@@ -4272,16 +4272,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network5.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    23,
-                    24,
-                    42
+                    9,
+                    26,
+                    32
                 ],
                 "t": 3
             },
@@ -4292,7 +4292,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         33,
@@ -4838,16 +4838,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network9.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    31,
-                    39,
-                    30
+                    47,
+                    25,
+                    39
                 ],
                 "t": 3
             },
@@ -4858,7 +4858,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         34,
@@ -5436,16 +5436,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network8.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    30,
-                    32,
-                    22
+                    23,
+                    26,
+                    20
                 ],
                 "t": 3
             },
@@ -5456,7 +5456,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         32,
@@ -6004,16 +6004,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network4.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    6,
-                    20,
-                    1
+                    40,
+                    39,
+                    33
                 ],
                 "t": 3
             },
@@ -6024,7 +6024,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         33,
@@ -6574,16 +6574,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network3.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    40,
-                    32,
-                    12
+                    33,
+                    41,
+                    18
                 ],
                 "t": 3
             },
@@ -6594,7 +6594,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         4,
@@ -7162,16 +7162,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network2.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    19,
-                    26,
-                    2
+                    16,
+                    4,
+                    35
                 ],
                 "t": 3
             },
@@ -7182,7 +7182,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         2,
@@ -7750,16 +7750,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network1.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    22,
-                    6,
-                    4
+                    49,
+                    43,
+                    5
                 ],
                 "t": 3
             },
@@ -7770,7 +7770,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         1,
@@ -8354,16 +8354,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network0.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    16,
-                    25,
-                    24
+                    6,
+                    20,
+                    11
                 ],
                 "t": 3
             },
@@ -8374,7 +8374,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         1,
@@ -8920,16 +8920,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network7.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    43,
-                    46,
-                    32
+                    16,
+                    19,
+                    28
                 ],
                 "t": 3
             },
@@ -8940,7 +8940,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         6,
@@ -9490,16 +9490,16 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_erdos_renyi_50_3_3_both_network6.json",
+            "logFile": "results/cpa_erdos_renyi_50_3_3_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    45,
                     46,
-                    48
+                    48,
+                    32
                 ],
                 "t": 3
             },
@@ -9510,7 +9510,7 @@
             "topology": {
                 "type": "userList",
                 "initialPeers": 50,
-                "initialPeerType": "DolevPeer",
+                "initialPeerType": "CPAPeer",
                 "list": {
                     "0": [
                         36,

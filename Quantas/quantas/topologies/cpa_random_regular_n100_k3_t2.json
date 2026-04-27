@@ -4,15 +4,15 @@
     ],
     "experiments": [
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network6.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    85,
-                    63
+                    6,
+                    47
                 ],
                 "t": 2
             },
@@ -1231,15 +1231,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network7.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    94,
-                    93
+                    6,
+                    84
                 ],
                 "t": 2
             },
@@ -2458,15 +2458,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network0.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    73,
-                    18
+                    45,
+                    61
                 ],
                 "t": 2
             },
@@ -3685,15 +3685,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network1.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    74,
-                    27
+                    96,
+                    77
                 ],
                 "t": 2
             },
@@ -4912,15 +4912,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network2.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
-                    80
+                    66,
+                    18
                 ],
                 "t": 2
             },
@@ -6139,15 +6139,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network3.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    78,
-                    42
+                    44,
+                    51
                 ],
                 "t": 2
             },
@@ -7366,15 +7366,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network4.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    80,
-                    12
+                    83,
+                    52
                 ],
                 "t": 2
             },
@@ -8593,15 +8593,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network8.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    9,
-                    44
+                    48,
+                    43
                 ],
                 "t": 2
             },
@@ -9820,15 +9820,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network9.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    76,
-                    89
+                    79,
+                    48
                 ],
                 "t": 2
             },
@@ -11047,15 +11047,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_dolev_network5.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_dolev_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    88,
-                    53
+                    76,
+                    42
                 ],
                 "t": 2
             },
@@ -12274,15 +12274,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network5.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network5.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    45,
-                    71
+                    38,
+                    30
                 ],
                 "t": 2
             },
@@ -13501,15 +13501,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network9.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network9.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    3,
-                    86
+                    79,
+                    17
                 ],
                 "t": 2
             },
@@ -14728,15 +14728,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network8.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network8.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    87,
-                    57
+                    57,
+                    12
                 ],
                 "t": 2
             },
@@ -15955,15 +15955,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network4.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network4.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    20,
-                    36
+                    74,
+                    84
                 ],
                 "t": 2
             },
@@ -17182,15 +17182,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network3.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network3.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    67,
-                    73
+                    63,
+                    89
                 ],
                 "t": 2
             },
@@ -18409,15 +18409,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network2.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network2.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    53,
-                    71
+                    70,
+                    2
                 ],
                 "t": 2
             },
@@ -19636,15 +19636,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network1.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network1.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    84,
-                    29
+                    57,
+                    15
                 ],
                 "t": 2
             },
@@ -20863,15 +20863,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network0.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network0.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    10,
-                    17
+                    53,
+                    69
                 ],
                 "t": 2
             },
@@ -22090,15 +22090,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network7.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network7.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    71,
-                    20
+                    70,
+                    2
                 ],
                 "t": 2
             },
@@ -23317,15 +23317,15 @@
             "rounds": 1000
         },
         {
-            "logFile": "results/cpa_random_regular_100_3_2_both_network6.json",
+            "logFile": "results/cpa_random_regular_100_3_2_1_1_both_network6.json",
             "threadCount": 48,
             "parameters": {
                 "ts": 1,
                 "tl": 1,
                 "sender": 0,
                 "byzantines": [
-                    55,
-                    15
+                    26,
+                    84
                 ],
                 "t": 2
             },

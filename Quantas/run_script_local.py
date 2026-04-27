@@ -68,6 +68,7 @@ def run_scripts():
         except KeyboardInterrupt:
             print("\nInterrupted by user. Stopping execution.")
             sys.exit(130)
+        os.system("clear")
     
         
     
